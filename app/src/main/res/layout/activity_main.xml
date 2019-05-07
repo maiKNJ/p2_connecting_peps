@@ -17,7 +17,7 @@
         android:layout_marginStart="28dp"
         android:layout_marginLeft="28dp"
         android:layout_marginTop="55dp"
-        android:text="@string/Create_Room"
+        android:text="@string/Change_Room"
         tools:ignore="MissingConstraints" />
 
     <Button
@@ -57,7 +57,7 @@
         android:textSize="20sp"
         android:textStyle="italic"
         tools:ignore="MissingConstraints"
-     />
+        />
 
     <EditText
         android:id="@+id/writeMsg"
@@ -81,7 +81,7 @@
         android:layout_alignParentRight="true"
         android:text="Send"
         tools:ignore="MissingConstraints"
-         />
+        />
 
     <TextView
         android:id="@+id/connectionStatus"
@@ -97,4 +97,4 @@
         android:textSize="18sp"
         android:textStyle="italic"
         tools:ignore="MissingConstraints"/>
-    </RelativeLayout>
+</RelativeLayout>
